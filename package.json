@@ -1,21 +1,11 @@
 {
   "name": "portablogio_backend",
   "version": "1.0.0",
-  "description": "Backend for personal blog and portfolio using PERN stack",
+  "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "dev": "node --env-file=.env --watch app.js",
+    "dev": "node --watch --env-file .env app.js"
   },
-  "keywords": [
-    "blog",
-    "portfolio",
-    "pern",
-    "express",
-    "postgresql"
-  ],
-  "author": "Carlos Marquina",
-  "license": "MIT",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
@@ -24,5 +14,9 @@
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.1",
     "pg": "^8.16.3"
-  }
+  },
+  "keywords": [],
+  "author": "Carlos Marquina",
+  "license": "MIT",
+  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501"
 }
