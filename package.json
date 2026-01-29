@@ -8,6 +8,7 @@
     "dev": "node --env-file=.env --import tsx --watch app.ts",
     "build": "tsc",
     "start": "node --env-file=.env dist/app.js",
+    "start:prod": "node scripts/migrate.js && node dist/app.js",
     "migrate": "node --env-file=.env scripts/migrate.js",
     "migrate:prod": "node scripts/migrate.js"
   },
